@@ -3,7 +3,7 @@ import "fmt"
 const s string = "seoul"
 func main() {
 fmt.Println(s)
-s = "busan"
+s = "busan" //여기서 오류발생한다!
 }
 
 /*
