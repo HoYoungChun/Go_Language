@@ -1,9 +1,12 @@
 package main
+
 import "fmt"
+
 const s string = "seoul"
+
 func main() {
-fmt.Println(s)
-s = "busan" //여기서 오류발생한다!
+  fmt.Println(s)
+  s = "busan" //여기서 오류발생한다!
 }
 
 /*
